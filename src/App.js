@@ -1,7 +1,7 @@
 import Heading from "./component/Heading/Heading";
 import Navbar from "./component/Navbar/Navbar";
 
-// import Destination from "../src/component/util/Destination"
+ import Destination from "../src/component/util/Destination"
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <Navbar />
       <Heading />
       
-      {/* <Destination/> */}
+      <Destination/>
     </>
   );
 }
